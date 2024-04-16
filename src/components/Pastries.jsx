@@ -15,12 +15,12 @@ const Pastries = () => {
       </h1>
 
       <div className=" flex flex-wrap gap-8 justify-center">
-        <PastriesCard img={img1} title="Delicious Strawberry Cake" price="$10.99" />
-        <PastriesCard img={img2} title="Delicious Raspberry macarons" price="$12.99" />
-        <PastriesCard img={img3} title="Delicious Strawberry chocalate fudge" price="$10.99" />
-        <PastriesCard img={img4} title="Delicious Strawberry icecream cake" price="$11.99" />
-        <PastriesCard img={img5} title=" Delicous Waffle war with berries" price="$10.99" />
-        <PastriesCard img={img6} title="Delicous Sour Strawberry icecream" price="$12.99" />
+        <PastriesCard img={img1} title="Delicious Strawberry Cake" price="GHC450" />
+        <PastriesCard img={img2} title="Delicious Raspberry macarons" price="GHC190" />
+        <PastriesCard img={img3} title="Delicious Strawberry chocalate fudge" price="GHC100" />
+        <PastriesCard img={img4} title="Delicious Strawberry icecream cake" price="GHC100" />
+        <PastriesCard img={img5} title=" Delicous Waffle war with berries" price="GHC105" />
+        <PastriesCard img={img6} title="Delicous Sour Strawberry icecream" price="GHC103" />
       </div>
     </div>
   );

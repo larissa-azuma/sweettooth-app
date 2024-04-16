@@ -1,6 +1,6 @@
 import React from "react";
 import img from "../assets/img/about.png";
-import Button from "../layouts/Button";
+
 
 const About = () => {
   return (
@@ -24,7 +24,7 @@ const About = () => {
           veritatis facere. Magnam!
         </p>
         <div className=" flex justify-center lg:justify-start">
-          <Button title="Learn More" />
+          
         </div>
       </div>
     </div>
