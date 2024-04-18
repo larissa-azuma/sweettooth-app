@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { BiRestaurant } from "react-icons/bi";
-import Button from "../layouts/Button";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { BiChevronDown } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
+import Button from "../layouts/Button";
+
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -18,6 +19,7 @@ const Navbar = () => {
   };
 
   return (
+    
     <div className=" fixed w-full">
       <div>
         <div className=" flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
@@ -40,9 +42,9 @@ const Navbar = () => {
             </Link>
 
             <div className="relative group">
-              <div className=" flex items-center gap-1">
+              <div className="flex items-center gap-1">
                 <Link
-                  to="dishes"
+                  to="pastries"
                   spy={true}
                   smooth={true}
                   duration={500}
@@ -54,10 +56,10 @@ const Navbar = () => {
                 <BiChevronDown className="cursor-pointer" size={25} />
               </div>
 
-              <ul className="absolute hidden space-y-2 group-hover:block bg-pink border border-gray-300 rounded-lg p-5">
+              <ul className=" bg-orange-50 absolute hidden space-y-2 group-hover:block bg-pink border border-gray-300 rounded-lg p-5">
                 <li>
                   <Link
-                    to="dishes"
+                    to="pastries"
                     spy={true}
                     smooth={true}
                     duration={500}
@@ -134,7 +136,11 @@ const Navbar = () => {
               Reviews
             </Link>
 
-            <Button title="Login" />
+<Button title="Login" to="/login" />
+
+
+
+          
           </nav>
 
           <div className="md:hidden flex items-center">
@@ -201,7 +207,9 @@ const Navbar = () => {
             Reviews
           </Link>
 
-          <Button title="login" />
+   <Button title="login"/>
+
+         
         </div>
       </div>
     </div>

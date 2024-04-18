@@ -1,21 +1,14 @@
 import React from "react";
-import Button from "../layouts/Button";
+
 
 const Home = () => {
   return (
-    <div className=" min-h-screen flex flex-row justify-between items-center lg:px-32 px-5 bg-[url('./assets/img/hero.jpg')] bg-cover bg-no-repeat ">
-      <div className=" w-full lg:w-2/3 space-y-5">
-        <h1 className=" text-backgroundColor font-semibold text-6xl">
-          hknk
-        </h1>
-        <p className=" text-backgroundColor">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis et qui,
-          maxime assumenda repellat corrupti officia dolorum delectus labore
-          deleniti?
-        </p>
-        <div className=" lg:pl-44">
-          <Button title="Order Now" />
-        </div>
+    <div className=" h-dvh bg-[url('./assets/img/pic7.jpg')] bg-cover  bg-center bg-no-repeat ">
+      <div className=" text-center m-auto py-28 w-1/2 text-white">
+        <h2 className="m-auto font-semibold text-3xl">
+          A place where cravings are satisfied!
+        </h2>
+        
       </div>
     </div>
   );

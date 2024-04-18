@@ -18,11 +18,7 @@ const About = () => {
           molestias omnis reprehenderit quae animi? Explicabo quasi accusamus
           laboriosam temporibus delectus, aut a? Quasi?
         </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi,
-          suscipit reiciendis accusamus recusandae eum aspernatur pariatur odit
-          veritatis facere. Magnam!
-        </p>
+        
         <div className=" flex justify-center lg:justify-start">
           
         </div>

@@ -15,13 +15,23 @@ const Pastries = () => {
       </h1>
 
       <div className=" flex flex-wrap gap-8 justify-center">
-        <PastriesCard img={img1} title="Delicious Strawberry Cake" price="GHC450" />
-        <PastriesCard img={img2} title="Delicious Raspberry macarons" price="GHC190" />
-        <PastriesCard img={img3} title="Delicious Strawberry chocalate fudge" price="GHC100" />
-        <PastriesCard img={img4} title="Delicious Strawberry icecream cake" price="GHC100" />
-        <PastriesCard img={img5} title=" Delicous Waffle war with berries" price="GHC105" />
-        <PastriesCard img={img6} title="Delicous Sour Strawberry icecream" price="GHC103" />
+        <PastriesCard img={img1} title="Strawberry Cake" price="GHC450" />
+        <PastriesCard img={img2} title="Berry macarons" price="GHC190" />
+        <PastriesCard img={img3} title="Choco fudge" price="GHC100" />
+        <PastriesCard img={img4} title="Strawcream cake" price="GHC100" />
+        <PastriesCard img={img5} title="Waffle berries" price="GHC105" />
+        <PastriesCard img={img6} title="Berry icecream" price="GHC103" />
       </div>
+      <div className=" flex flex-wrap gap-8 justify-center">
+        <PastriesCard img={img1} title="Strawberry Cake" price="GHC450" />
+        <PastriesCard img={img2} title="Berry macarons" price="GHC190" />
+        <PastriesCard img={img3} title="Choco fudge" price="GHC100" />
+        <PastriesCard img={img4} title="Strawcream cake" price="GHC100" />
+        <PastriesCard img={img5} title="Waffle berries" price="GHC105" />
+        <PastriesCard img={img6} title="Berry icecream" price="GHC103" />
+      </div>
+
+
     </div>
   );
 };

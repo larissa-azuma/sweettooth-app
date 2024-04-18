@@ -6,6 +6,7 @@ import Menu from "./components/Menu";
 import Footer from "./components/Footer";
 import Pastries from "./components/Pastries";
 import Review from "./components/Review";
+import Login from "./page/Login";
 
 const App = () => {
   return (
@@ -32,7 +33,13 @@ const App = () => {
         <div id="review">
           <Review />
         </div>
+        
+        <div id="login">
+          <Login/>
+        </div>
+        
       </main>
+      
 
       <Footer />
     </div>
