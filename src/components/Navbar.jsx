@@ -5,7 +5,8 @@ import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { BiChevronDown } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 import Button from "../layouts/Button";
-
+import { Link as SLink } from "react-router-dom";
+import Login from "../page/Login";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -19,7 +20,6 @@ const Navbar = () => {
   };
 
   return (
-    
     <div className=" fixed w-full">
       <div>
         <div className=" flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
@@ -27,7 +27,9 @@ const Navbar = () => {
             <span>
               <BiRestaurant size={32} />
             </span>
-            <h1 className=" text-xl font-semibold">SweetTooth-Pastries</h1>
+            <SLink to="/">
+              <h1 className=" text-xl font-semibold">SweetTooth</h1>
+            </SLink>
           </div>
 
           <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8">
@@ -87,7 +89,7 @@ const Navbar = () => {
                     duration={500}
                     className="text-gray-800 hover:text-brightColor transition-all cursor-pointer"
                   >
-                    Chacolate
+                    Chocolate
                   </Link>
                 </li>
                 <li>
@@ -124,8 +126,6 @@ const Navbar = () => {
               Menu
             </Link>
 
-
-           
             <Link
               to="review"
               spy={true}
@@ -135,12 +135,13 @@ const Navbar = () => {
             >
               Reviews
             </Link>
+            <SLink to="/login">
+              <Button title="Login" />
+            </SLink>
 
-<Button title="Login" to="/login" />
-
-
-
-          
+            <SLink to="/register">
+              <Button title="Register" />
+            </SLink>
           </nav>
 
           <div className="md:hidden flex items-center">
@@ -206,10 +207,12 @@ const Navbar = () => {
           >
             Reviews
           </Link>
-
-   <Button title="login"/>
-
-         
+          <SLink to="/login">
+            <Button title="Login" />
+          </SLink>
+          <SLink to="/register">
+            <Button title="Register" />
+          </SLink>
         </div>
       </div>
     </div>

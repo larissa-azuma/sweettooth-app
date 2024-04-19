@@ -10,7 +10,8 @@ const Footer = () => {
         <div className=" w-full md:w-1/4">
           <h1 className=" font-semibold text-xl pb-4">SweetTooth-Pastries</h1>
           <p className=" text-sm">
-            Indulge in a symphony of flavors, where each bite is a taste of heaven!.
+            Indulge in a symphony of flavors, where each bite is a taste of
+            heaven!.
           </p>
         </div>
         <div>
@@ -87,8 +88,8 @@ const Footer = () => {
         <p>
           <p className=" text-center py-4">
             @copyright developed by
-            <span className=" text-brightColor"> Linda Azuma</span> |
-            All rights reserved
+            <span className=" text-brightColor"> Linda Azuma</span> | All rights
+            reserved
           </p>
         </p>
       </div>

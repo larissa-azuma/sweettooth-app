@@ -30,8 +30,6 @@ const Pastries = () => {
         <PastriesCard img={img5} title="Waffle berries" price="GHC105" />
         <PastriesCard img={img6} title="Berry icecream" price="GHC103" />
       </div>
-
-
     </div>
   );
 };

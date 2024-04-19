@@ -1,7 +1,6 @@
 import React from "react";
 import img from "../assets/img/about.png";
 
-
 const About = () => {
   return (
     <div className="min-h-screen flex flex-col lg:flex-row justify-center items-center lg:px-32 px-5">
@@ -18,10 +17,8 @@ const About = () => {
           molestias omnis reprehenderit quae animi? Explicabo quasi accusamus
           laboriosam temporibus delectus, aut a? Quasi?
         </p>
-        
-        <div className=" flex justify-center lg:justify-start">
-          
-        </div>
+
+        <div className=" flex justify-center lg:justify-start"></div>
       </div>
     </div>
   );

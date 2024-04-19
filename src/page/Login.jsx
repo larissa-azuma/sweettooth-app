@@ -1,12 +1,17 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
+
 const Login = () => {
   return (
+   <>
+     
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-            Sign in to your account
+            Log in to your account
           </h2>
         </div>
         <form className="mt-8 space-y-6" action="#" method="POST">
@@ -61,7 +66,7 @@ const Login = () => {
             <div className="text-sm">
               <a
                 href="#"
-                className="font-medium text-indigo-600 hover:text-indigo-500"
+                className="font-medium text-orange-400 hover:text-orange-400"
               >
                 Forgot your password?
               </a>
@@ -71,11 +76,11 @@ const Login = () => {
           <div>
             <button
               type="submit"
-              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-orange-400 hover:bg-orange-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring- brightColor"
             >
               <span className="absolute left-0 inset-y-0 flex items-center pl-3">
                 <svg
-                  className="h-5 w-5 text-indigo-500 group-hover:text-indigo-400"
+                  className="h-5 w-5 text-  group-hover:text-orange-400"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
@@ -91,12 +96,22 @@ const Login = () => {
                   />
                 </svg>
               </span>
-              Sign in
+              Log in
             </button>
+
+            <div className=" flex flex-row items-center cursor-pointer">
+    
+    <Link to="/">
+      <p className=" text-m ">Back To Home</p>
+    </Link>
+  </div>
           </div>
         </form>
       </div>
     </div>
+   </>
+    
+    
   );
 };
 
