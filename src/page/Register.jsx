@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import image from '../assets/img/img6.jpg';
 
 function Register() {
   return (
@@ -11,12 +13,14 @@ function Register() {
           <div className="flex flex-col lg:flex-row w-10/12 lg:w-8/12 bg-white rounded-xl mx-auto shadow-lg overflow-hidden">
             <div
               className="w-full lg:w-1/2 flex flex-col items-center justify-center p-12 bg-no-repeat bg-cover bg-center"
-              style={{ backgroundImage: "url('images/pic8.jpg')" }}
+            
             >
               <h1 className="text-white text-3xl mb-3">Welcome</h1>
-              {/* <div>
-                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suspendisse aliquam varius rutrum purus maecenas ac <a href="#" className="text-purple-500 font-semibold">Learn m</a></p>
-              </div> */}
+               <div>
+                <p className="text-white">Lorem  <a href="" className="text-orange-400 font-semibold"> 
+                <img src={image } alt="img6" style={{ height: '400px' }}/>
+                </a></p>
+              </div> 
             </div>
             <div className="w-full lg:w-1/2 py-16 px-12">
               <h2 className="text-3xl mb-4">Register</h2>
@@ -73,6 +77,9 @@ function Register() {
                     Register Now
                   </button>
                 </div>
+                <Link to="/">
+          <p className=" text-m ">Back To Home</p>
+               </Link>
               </form>
             </div>
           </div>

@@ -35,3 +35,4 @@ const Pastries = () => {
 };
 
 export default Pastries;
+

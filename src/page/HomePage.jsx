@@ -10,6 +10,7 @@ import Login from "./Login";
 import Register from "./Register";
 import Footer from "../components/Footer";
 
+
 function HomePage() {
   return (
     <>

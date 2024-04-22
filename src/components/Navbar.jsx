@@ -8,6 +8,8 @@ import Button from "../layouts/Button";
 import { Link as SLink } from "react-router-dom";
 import Login from "../page/Login";
 
+
+
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
@@ -142,6 +144,8 @@ const Navbar = () => {
             <SLink to="/register">
               <Button title="Register" />
             </SLink>
+            
+          
           </nav>
 
           <div className="md:hidden flex items-center">
@@ -213,6 +217,7 @@ const Navbar = () => {
           <SLink to="/register">
             <Button title="Register" />
           </SLink>
+          
         </div>
       </div>
     </div>

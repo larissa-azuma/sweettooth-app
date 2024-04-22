@@ -2,6 +2,8 @@ import React from "react";
 import { BsStarFill } from "react-icons/bs";
 import { BsStarHalf } from "react-icons/bs";
 import Button from "./Button";
+import { Link } from "react-router-dom";
+
 
 const PastriesCard = (props) => {
   return (
@@ -18,8 +20,10 @@ const PastriesCard = (props) => {
         </div>
         <div className=" flex flex-row items-center justify-center gap-4">
           <h3 className=" font-semibold text-lg">{props.price}</h3>
+          <Link to="buypage">
           <Button title="Buy Now" />
-        </div>
+          </Link>
+       </div>
       </div>
     </div>
   );
