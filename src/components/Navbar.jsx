@@ -30,7 +30,7 @@ const Navbar = () => {
               <GrRestaurant size={32} />
             </span>
             <SLink to="/">
-              <h1 className=" text-xl font-semibold">SweetTooth</h1>
+              <h1 className=" text-lg font-semibold">SweetTooth</h1>
             </SLink>
           </div>
 

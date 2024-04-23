@@ -37,6 +37,7 @@ function HomePage() {
           <div id="review">
             <Review />
           </div>
+          
         </main>
         <Footer />
       </div>
