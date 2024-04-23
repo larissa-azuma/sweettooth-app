@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import { BiRestaurant } from "react-icons/bi";
+import { GrRestaurant } from "react-icons/gr";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { BiChevronDown } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className=" flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
           <div className=" flex flex-row items-center cursor-pointer">
             <span>
-              <BiRestaurant size={32} />
+              <GrRestaurant size={32} />
             </span>
             <SLink to="/">
               <h1 className=" text-xl font-semibold">SweetTooth</h1>

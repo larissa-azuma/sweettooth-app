@@ -59,28 +59,26 @@ const Buypage = () => {
             required
           />
         </div>
-        <div className="mb-4">
-          <h2 className="font-medium mb-2">Pastries:</h2>
-          <div>
-            <button
-              onClick={() => handleAddPastry('Croissant', 20)}
-              className="mr-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            >
-              Add Croissant (GHC20)
-            </button>
-            <button
-              onClick={() => handleAddPastry('Donut', 15)}
-              className="mr-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            >
-              Add Donut (GHC15)
-            </button>
-            <button
-              onClick={() => handleAddPastry('Muffin', 30)}
-              className="px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            >
-              Add Muffin (GHC30)
-            </button>
-          </div>
+        <div className="mb-4 flex flex-wrap">
+          <h2 className="font-medium mb-2 w-full">Pastries:</h2>
+          <button
+            onClick={() => handleAddPastry('Croissant', 20)}
+            className="mr-2 mb-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            Add Croissant (GHC20)
+          </button>
+          <button
+            onClick={() => handleAddPastry('Donut', 15)}
+            className="mr-2 mb-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            Add Donut (GHC15)
+          </button>
+          <button
+            onClick={() => handleAddPastry('Muffin', 30)}
+            className="mr-2 mb-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            Add Muffin (GHC30)
+          </button>
         </div>
         <div className="mb-4">
           <h2 className="font-medium">Total Price: GHC{totalPrice}</h2>
@@ -107,9 +105,7 @@ const Buypage = () => {
         >
           Submit
         </button>
-        <Link to="/">
-      <p className=" text-m ">Back To Home</p>
-    </Link>
+        <Link to="/" className="block mt-4">Back To Home</Link>
       </form>
     </div>
   );
