@@ -18,7 +18,7 @@ const Dashboard = () => {
         throw new Error('Failed to fetch pastries');
       }
       const data = await response.json();
-      setPastries(data.slice(0, 6)); // Limiting to 6 pastries for demonstration
+      setPastries(data.slice(0, 6)); 
     } catch (error) {
       console.error(error);
     }
