@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className=" h-dvh  flex justify-center bg-[url('./assets/img/pic7.jpg')] bg-cover  bg-center bg-no-repeat ">
       <div className=" text-center m-auto py-28 w-1/2 text-white">
-        <h2 className="m-auto font-semibold text-7xl">
+        <h2 className="m-auto font-semibold text-6xl">
          
         
         <Typewriter 
@@ -14,10 +14,10 @@ const Home = () => {
             .typeString("Welcome to SweetTooth")
             .pauseFor(2000)
             .deleteAll()
-            .typeString("a place where")
+            .typeString("A Plcae Where")
             .pauseFor(2000)
             .deleteAll()
-            .typeString("your taste buds comes alive")
+            .typeString("Your Taste Buds Comes Alive.")
             .start();
         }}
         />

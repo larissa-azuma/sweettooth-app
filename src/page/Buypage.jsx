@@ -62,12 +62,12 @@ const Buypage = () => {
         <div className="mb-4 flex flex-wrap">
           <h2 className="font-medium mb-2 w-full">Pastries:</h2>
           <button
-            onClick={() => handleAddPastry('Croissant', 20)}
+            onClick={() => handleAddPastry('Shadow Cake', 20)}
             className="mr-2 mb-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             Add Croissant (GHC20)
           </button>
-          <button
+          {/* <button
             onClick={() => handleAddPastry('Donut', 15)}
             className="mr-2 mb-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
@@ -78,7 +78,7 @@ const Buypage = () => {
             className="mr-2 mb-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             Add Muffin (GHC30)
-          </button>
+          </button> */}
         </div>
         <div className="mb-4">
           <h2 className="font-medium">Total Price: GHC{totalPrice}</h2>
@@ -91,7 +91,7 @@ const Buypage = () => {
                 {pastry.name} (${pastry.price})
                 <button
                   onClick={() => handleRemovePastry(pastry.id, pastry.price)}
-                  className="ml-2 px-2 py-1 bg-orange-400 text-white rounded-md hover:bg-orange-400 focus:outline-none focus:ring-2 focus:ring-orange-400"
+                  className="ml-2 px-4 py-1 bg-orange-400 text-white rounded-md hover:bg-orange-400 focus:outline-none focus:ring-2 focus:ring-orange-400"
                 >
                   Remove
                 </button>

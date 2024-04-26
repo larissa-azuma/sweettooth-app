@@ -73,7 +73,7 @@ justify-center px-6 py-12">
         <div className="w-full h-auto bg-gray-400 dark:bg-gray-800
 hidden lg:block lg:w-5/12 bg-cover rounded-l-lg"
           style={{ backgroundImage:
-"url('https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.vDQ2UpYp8kc9yVyEJhU2sQHaLH%26pid%3DApi&sp=1713980465Tb511c6380b40d5a971edf54609c077d3219810f8f5be3c50486288464540692a')"
+"url('https://images.unsplash.com/photo-1568051243851-f9b136146e97?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"
 }}></div>
         <div className="w-full lg:w-4/12 bg-white dark:bg-gray-700 p-5
 rounded-lg lg:rounded-l-none">
@@ -85,7 +85,7 @@ dark:bg-gray-800 rounded" onSubmit={handleSubmit}>
               <div className="mb-4">
                 <label className="block mb-2 text-sm font-bold
 text-gray-700 dark:text-white" htmlFor="UserName">
-                  UserName
+                  Username
                 </label>
                 <input
                   className="w-full px-3 py-2 mb-3 text-sm
@@ -157,7 +157,7 @@ appearance-none focus:outline-none focus:shadow-outline"
             </div>
             <div className="mb-6 text-center">
               <button
-                className="w-full px-4 py-2 font-bold text-white
+                className="w-full px-4 py-1 font-bold text-white
 bg-brightColor rounded-full hover:bg-brightColor dark:bg-brightColor
 dark:text-white dark:hover:bg-black focus:outline-none
 focus:shadow-outline"
@@ -183,7 +183,7 @@ viewBox="0 0 448 512">
 239.029c-9.373 9.373-9.373 24.569 0 33.941l86.059 86.059c15.119 15.119
 40.971 4.411 40.971-16.971V296z" />
             </svg>
-            Go back to Homepage
+            Back To Home
           </a>
             </div>
           </form>

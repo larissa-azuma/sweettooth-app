@@ -13,12 +13,12 @@ const Dashboard = () => {
 
   const fetchPastries = async () => {
     try {
-      const response = await fetch('https://jsonplaceholder.typicode.com/photos');
+      const response = await fetch('');
       if (!response.ok) {
         throw new Error('Failed to fetch pastries');
       }
       const data = await response.json();
-      setPastries(data.slice(0, 6)); 
+      setPastries(data.slice(0, 4)); 
     } catch (error) {
       console.error(error);
     }
@@ -106,7 +106,7 @@ return (
                     rows="3"
                     className="py-2 px-3 border rounded-md mb-2"
                   />
-                  <button onClick={handleAddReview} className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600">Submit Review</button>
+                  <button onClick={handleAddReview} className="bg-blue-500 text-white py-1 px-4 rounded-md hover:bg-blue-600">Submit Review</button>
                 </div>
               )}
             </div>

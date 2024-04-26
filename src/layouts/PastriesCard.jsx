@@ -4,14 +4,13 @@ import { BsStarHalf } from "react-icons/bs";
 import Button from "./Button";
 import { Link } from "react-router-dom";
 
-
 const PastriesCard = (props) => {
   return (
-    <div className=" w-full lg:w-1/4 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg">
+    <div className=" p-4  shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg">
       <img className=" rounded-xl" src={props.img} alt="img" />
-      <div className=" space-y-4">
+      <div className="">
         <h3 className=" font-semibold text-center text-xl pt-6">{props.title}</h3>
-        <div className=" flex flex-row justify-center">
+        <div className=" flex flex-row justify-center py-3">
           <BsStarFill className=" text-brightColor" />
           <BsStarFill className=" text-brightColor" />
           <BsStarFill className=" text-brightColor" />
@@ -22,8 +21,8 @@ const PastriesCard = (props) => {
           <h3 className=" font-semibold text-lg">{props.price}</h3>
           <Link to="buypage">
           <Button title="Buy Now" />
-          </Link>
-       </div>
+          </Link> 
+          </div>
       </div>
     </div>
   );
