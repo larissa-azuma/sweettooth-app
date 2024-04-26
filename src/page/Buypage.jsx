@@ -65,7 +65,7 @@ const Buypage = () => {
             onClick={() => handleAddPastry('Shadow Cake', 20)}
             className="mr-2 mb-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
-            Add Croissant (GHC20)
+            Add Strawberry Cake (GHC20)
           </button>
           {/* <button
             onClick={() => handleAddPastry('Donut', 15)}
