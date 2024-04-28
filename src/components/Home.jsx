@@ -14,7 +14,7 @@ const Home = () => {
             .typeString("Welcome to SweetTooth")
             .pauseFor(2000)
             .deleteAll()
-            .typeString("A Plcae Where")
+            .typeString("A Place Where")
             .pauseFor(2000)
             .deleteAll()
             .typeString("Your Taste Buds Comes Alive.")
