@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
@@ -100,7 +101,8 @@ appearance-none focus:outline-none focus:shadow-outline"
                 />
               </div>
 
-            </div>
+
+</div>
             <div className="mb-4">
               <label className="block mb-2 text-sm font-bold
 text-gray-700 dark:text-white" htmlFor="email">
@@ -117,44 +119,42 @@ focus:outline-none focus:shadow-outline"
                 value={email}
                 onChange={handleOnChange}
               />
-            </div>
-            <div className=" item=align mb-4 md:flex md:justify-between">
-              <div className="mb-4 md:mr-2 md:mb-0">
-                <label className="block mb-2 text-sm font-bold
+              </div>
+              <div className="mb-4">
+              <label className="block mb-2 text-sm font-bold
 text-gray-700 dark:text-white" htmlFor="password">
-                  Password
-                </label>
-                <input
-                  className="w-full px-3 py-2 mb-3 text-sm
-leading-tight text-gray-700 dark:text-white border border-brightColor
-rounded shadow appearance-none focus:outline-none
-focus:shadow-outline"
-                  id="password"
-                  type="password"
-                  name="password"
-                  placeholder="******************"
-                  value={password}
-                  onChange={handleOnChange}
-                />
-                <p className="text-xs italic text-orange-00"></p>
-              </div>
-              <div className="md:ml-2">
-                <label className="block mb-2 text-sm font-bold
-text-gray-700 dark:text-white" htmlFor="c_password">
-                  Confirm Password
-                </label>
-                <input
-                  className="w-full px-3 py-2 mb-3 text-sm
-leading-tight text-gray-700 dark:text-white border rounded shadow
-appearance-none focus:outline-none focus:shadow-outline"
-                  id="c_password"
-                  type="password"
-                  name="c_password"
-                  placeholder="******************"
-                  onChange={handleOnChange}
-                />
-              </div>
+                Password
+              </label>
+              <input
+                className="w-full px-3 py-2 mb-3 text-sm leading-tight
+text-gray-700 dark:text-white border rounded shadow appearance-none
+focus:outline-none focus:shadow-outline"
+                id="password"
+                type="password"
+                name="password"
+                placeholder="******************"
+                value={password}
+                onChange={handleOnChange}
+              />
             </div>
+              <div className="mb-4">
+              <label className="block mb-2 text-sm font-bold
+text-gray-700 dark:text-white" htmlFor="confirm">
+                Confirm Password
+              </label>
+              <input
+                className="w-full px-3 py-2 mb-3 text-sm leading-tight
+text-gray-700 dark:text-white border rounded shadow appearance-none
+focus:outline-none focus:shadow-outline"
+                id="confirm"
+                type="confirm"
+                name="confirm"
+                placeholder="******************"
+                value={confirm}
+                onChange={handleOnChange}
+              />
+            </div>
+            
             <div className="mb-6 text-center">
               <button
                 className="w-full px-4 py-1 font-bold text-white
