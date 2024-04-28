@@ -12,8 +12,8 @@ const Review = () => {
       </h1>
       <div className=" flex flex-col md:flex-row gap-5 mt-5">
         <ReviewCard img={img1} name="Jeff Agyekum" />
-        <ReviewCard img={img2} name="John Deo" />
-        <ReviewCard img={img3} name="Victoria Zoe" />
+        <ReviewCard img={img2} name="John Ackman" />
+        <ReviewCard img={img3} name="Victoria Azoli" />
       </div>
     </div>
   );
