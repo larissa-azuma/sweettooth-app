@@ -18,13 +18,13 @@ const Pastries = () => {
 
       <div className="md:grid grid-cols-4 gap-4  justify-center">
         <PastriesCard img={img1} title="Strawberry Cake" price="GHC450" />
-        <PastriesCard img={img2} title="Cotton Cake" price="GHC190" />
-        <PastriesCard img={img3} title="Icy Cake" price="GHC100" />
-        <PastriesCard img={img4} title="Strawcream cake" price="GHC100" />
+        <PastriesCard img={img2} title="Berry Cake" price="GHC450" />
+        <PastriesCard img={img3} title="Icy Cake" price="GHC455" />
+        <PastriesCard img={img4} title="Strawcream cake" price="GHC455" />
         <PastriesCard img={img5} title="Shadow Cake" price="GHC405" />
         <PastriesCard img={pic9} title="Snowy" price="GHC405" />
-        <PastriesCard img={pic11} title="Cheesy" price="GHC 405" />
-        <PastriesCard img={img6} title="Berry icecream" price="GHC408" />
+        <PastriesCard img={pic11} title="Cheesy" price="GHC 450" />
+        <PastriesCard img={img6} title="Choco icecream" price="GHC408" />
       </div>
      
     </div>

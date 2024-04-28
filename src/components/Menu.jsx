@@ -12,11 +12,11 @@ const Menu = () => {
       </h1>
 
       <div className=" md:grid grid-cols-3 gap-4  justify-center">
-        <PastriesCard img={menu1} title="Assorted Doughnuts" price="GHC109" />
-        <PastriesCard img={menu2} title="Cocoa Cupcakes" price="GHC109" />
+        <PastriesCard img={menu1} title="Assorted Biscuits" price="GHC109" />
+        <PastriesCard img={menu2} title="Snow Doughnuts" price="GHC109" />
         <PastriesCard
           img={menu3}
-          title="Sweet Raspberry macarons"
+          title="Assorted Doughnuts"
           price="GHC107"
         />
       </div>
